@@ -36,18 +36,6 @@ nav img {
   opacity: 0.8;
 }
 
-.details .vertical-decoration {
-  top: 0;
-  left: 0;
-  width: 24px;
-}
-
-.details-2 .vertical-decoration {
-  top: 5%;
-  right: 0;
-  width: 24px;
-}
-
 .project:hover {
   transform: scale(1.05);
   transition: all 0.5s ease-in-out;
@@ -90,7 +78,7 @@ nav img {
   .header {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
-      url("../images/header-background.jpg") center center no-repeat;
+      url("../images/hero_1-_1_.webp") center center no-repeat;
   }
 
   .map {
