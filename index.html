@@ -431,45 +431,49 @@
           </div>
           <div class="col-lg-6 p-4">
             <form action="https://formspree.io/f/xyyqyedy" method="POST">
-              <div class="my-4">
+              <div class="mb-4">
                 <input
                   type="text"
-                  class="form-control form-control-lg rounded-0 border-0"
-                  name="name"
+                  class="form-control bg-secondary"
                   placeholder="Enter name"
+                  name="name"
                 />
               </div>
-              <div class="my-4">
+              <div class="mb-4">
                 <input
                   type="email"
-                  class="form-control form-control-lg rounded-0 border-0"
-                  name="email"
+                  class="form-control bg-secondary"
                   placeholder="Enter email"
+                  name="email"
                 />
               </div>
-              <div class="my-4">
+              <div class="mb-4">
                 <input
                   type="text"
-                  class="form-control form-control-lg rounded-0 border-0"
+                  class="form-control bg-secondary"
+                  placeholder="Enter phone"
                   name="phone"
-                  placeholder="Enter phone number"
                 />
               </div>
-              <div class="form-check">
+              <div class="mb-4">
+                <select
+                  name="interested"
+                  id="interested"
+                  class="form-control bg-secondary"
+                >
+                  <option>Interested In...</option>
+                  <option value="erp">22nd July Ride</option>
+                  <option value="crm">22nd August Ride</option>
+                  <option value="cms">22nd December Ride</option>
+                </select>
+              </div>
+              <div class="d-grid gap-2">
                 <input
-                  type="checkbox"
-                  class="form-check-input"
-                  name="checkbox"
-                  value=""
+                  type="submit"
+                  value="Submit"
+                  class="btn btn-primary text-white"
+                  name="submit"
                 />
-                <label for="terms" class="form-check-label">
-                  I agree to the terms and conditions
-                </label>
-              </div>
-              <div class="d-grid mt-4">
-                <button class="btn btn-outline-dark bg-primary" type="submit">
-                  Register
-                </button>
               </div>
             </form>
           </div>
