@@ -2,12 +2,46 @@
   font-size: 65px;
 }
 
-.header {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
-    url("../images/hero_1-_1_.webp") left center no-repeat;
-  background-size: cover;
-  height: 600px;
+// .header {
+//   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+//     url("../images/hero_video.mp4") left center no-repeat;
+//   background-size: cover;
+//   height: 600px;
+// }
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
+
+.header {
+  position: relative;
+  height: 100vh;
+}
+
+// .hero-section {
+//   position: relative;
+//   overflow: hidden;
+// }
+
+// video {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   z-index: -1;
+// }
+
+// .hero-content {
+//   /* Style your hero content as needed */
+// }
 
 .vertical-decoration {
   top: 12%;
@@ -77,7 +111,7 @@ nav img {
 
   .header {
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
       url("../images/events_1\ \(1\).webp") center center no-repeat;
   }
 
